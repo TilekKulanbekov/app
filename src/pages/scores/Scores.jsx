@@ -43,7 +43,7 @@ const Scores = () => {
                             <tr>
                                 <td>{idx}</td>
                                 <td>{el.name}</td>
-                                <td>{el.totalValue}</td>
+                                <td>{el.answerTotal}</td>
                             </tr>
                         ))
                         : ''
