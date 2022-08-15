@@ -1,0 +1,81 @@
+.root {
+  position: relative;
+  .title {
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .button {
+    padding: 20px;
+    border: none;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(177, 202, 255);
+    color: rgb(88, 88, 88);
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .table {
+    table-layout: fixed;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+
+    .rows {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .score {
+      width: 333.333px;
+      padding: 10px;
+      text-align: center;
+      border: 3px solid rgb(184, 184, 184);
+      border-radius: 0 10px 0 0;
+    }
+    .name {
+      width: 333.333px;
+      text-align: center;
+      padding: 10px;
+
+      border: 3px solid rgb(184, 184, 184);
+    }
+    .id {
+      width: 333.333px;
+      text-align: center;
+      padding: 10px;
+
+      border: 3px solid rgb(184, 184, 184);
+      border-radius: 10px 0 0 0;
+    }
+    .score1 {
+      width: 333.333px;
+      text-align: center;
+      padding: 10px;
+
+      border: 3px solid rgb(184, 184, 184);
+    }
+    .name1 {
+      width: 333.333px;
+      text-align: center;
+      padding: 10px;
+
+      border: 3px solid rgb(184, 184, 184);
+    }
+    .id1 {
+      width: 333.333px;
+      text-align: center;
+      padding: 10px;
+
+      border: 3px solid rgb(184, 184, 184);
+    }
+  }
+}
